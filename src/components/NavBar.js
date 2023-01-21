@@ -1,5 +1,6 @@
 import logo from '../images/logo.svg'
 import { pageLinks } from '../data';
+import { mediaLinks } from '../data';
 const NavBar = () => {
   return (
     <nav className="navbar">
@@ -23,17 +24,17 @@ const NavBar = () => {
           
 
         <ul className="nav-icons">
-          <li>
-            <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-              rel="noreferrer"><i className="fab fa-facebook"></i
+          {mediaLinks.map((link)=>{
+            return(
+            <li key={link.id}>
+            <a href={link.href} target="_blank" class="nav-icon"
+               rel="noreferrer" attr={link.text}><i class={link.icon}></i
             ></a>
           </li>
-          
-          <li>
-            <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-              ><i className="fab fa-squarespace"></i
-            ></a>
-          </li>
+            )
+        }
+        )
+        }
         </ul>
       </div>
     </nav>
