@@ -1,12 +1,13 @@
-import logo from '../images/logo.svg'
+
 import { pageLinks } from '../data';
 import { mediaLinks } from '../data';
 const NavBar = () => {
+  let url ="https://latantravels.com.ng/"
   return (
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} className="nav-logo" alt="backroads" />
+          <div className="logo" alt="latan travels"><a href={url}>LATAN-TRAVELS</a></div>
           <button type="button" className="nav-toggle" id="nav-toggle">
             <i className="fas fa-bars"></i>
           </button>

@@ -16,16 +16,18 @@ const About = () => {
         />
       </div>
       <article className="about-info">
-        <h3>explore the difference</h3>
+        <h3>WHO WE ARE?</h3>
+        <h4>OUR MISSION</h4>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-          quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-          unde dolor?
+        To be the most customer-centric travel company, where customers can find solutions to their travel needs, and at the lowest possible prices
         </p>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-          quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-          unde dolor?
+        <h4>Our Core Values</h4>
+          <li>INTEGRITY. Know and do what is right.</li>
+          <li>RESPECT. Treating others, the way you want to be treated.</li>
+          <li>RESPONSIBILITY. Embrace opportunities to contribute.</li>
+          <li>SPORTSMANSHIP. Bring your best to all competition. </li>
+          <li>SERVANT LEADERSHIP. Serve the common good. </li>
         </p>
         <a href="#About"className="btn">read more</a>
       </article>

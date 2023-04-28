@@ -4,12 +4,11 @@ const Hero = () => {
   return (
     <section class="hero" id="home">
     <div class="hero-banner">
-      <h1>continue exploring</h1>
+      <h1>EXPLORE THE WORLD</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-        explicabo debitis est autem dicta.
+      “LIVE WITH NO EXCUSES AND TRAVEL WITH NO REGRETS”
       </p>
-      <a href="#tours" class="btn hero-btn">explore tours</a>
+      <a href="#tours" class="btn hero-btn">explore the colourful world</a>
     </div>
   </section>
   )
