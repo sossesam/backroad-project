@@ -4,10 +4,10 @@ import image3 from './images/tour-3.jpeg'
 import image4 from './images/tour-4.jpeg'
 
 export const pageLinks = [
-    {id:1, href:'#home', text:'Home'},
-    {id:2, href:'#about', text:'About'},
-    {id:3, href:'#services', text:'Services'},
-    {id:4, href:'#tours', text:'Tours'},
+    {id:1, href:'/', text:'Home'},
+    {id:2, href:'/about', text:'About'},
+    {id:3, href:'/', text:'Services'},
+    {id:4, href:'/', text:'Tours'},
 ]
 
 export const mediaLinks = [

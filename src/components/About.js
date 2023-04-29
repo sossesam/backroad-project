@@ -1,9 +1,13 @@
 import React from 'react'
 import aboutImg from '../images/about.jpeg'
 import Title from './Title'
+import Footer from './Footer'
+import NavBar from './NavBar'
 
 const About = () => {
   return (
+    <>
+    <NavBar />
     <section className="section" id="about">
     <Title title="about" subtitle="us"/>
 
@@ -32,7 +36,10 @@ const About = () => {
         <a href="#About"className="btn">read more</a>
       </article>
     </div>
+    
   </section>
+  <Footer />
+  </>
   )
 }
 

@@ -1,6 +1,7 @@
 
 import { pageLinks } from '../data';
 import { mediaLinks } from '../data';
+import { Link } from 'react-router-dom'
 const NavBar = () => {
   let url ="https://latantravels.com.ng/"
   return (
@@ -17,7 +18,7 @@ const NavBar = () => {
             {pageLinks.map((link)=>{
                 return(
                     <li key={link.id}>
-                        <a href={link.href} className='nav-link'>{link.text}</a>
+                        <Link to={link.href} className='nav-link'>{link.text}</Link>
                     </li>
                 )
             })}
@@ -38,6 +39,7 @@ const NavBar = () => {
         }
         </ul>
       </div>
+    
     </nav>
   )
 };

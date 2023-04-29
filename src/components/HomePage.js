@@ -1,18 +1,22 @@
 
-import {BrowserRouter, Route, Routes} from "react-router-dom";
-import About from "./About";
+
+import NavBar from "./NavBar";
+import Hero from "./Hero";
+import Services from "./Services";
+import Tours from "./Tours";
+import Footer from "./Footer";
 
 function HomePage() {
   return (
     <>
-    <BrowserRouter>
-  <Routes>
-    <Route path="/" element={<HomePage />}  />
-    <Route path="/About" element={<About/>}/>
-    <Route path="*" element={<ErrorPage />} />
-  </Routes>
-  </BrowserRouter>
-    <script src="./js/app.js"></script></>
+    <NavBar/>
+    <Hero />
+    <Services />
+    <Tours />
+    <Footer />
+
+    <script src="./js/app.js"></script>
+    </>
 
   );
 }
